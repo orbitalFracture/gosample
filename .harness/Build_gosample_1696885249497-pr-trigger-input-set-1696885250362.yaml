@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gosample_1696885249497-pr-trigger-input-set
+  identifier: Build_gosample_1696885249497prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: react_calculator
+  pipeline:
+    identifier: Build_gosample_1696885249497
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
